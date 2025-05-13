@@ -40,5 +40,9 @@ int main(){
     mahasiswa mhs2("Andi");             //hanya nama
     mahasiswa mhs3(010203, "Santi");    //NIM dan nama
 
+    cout << "Mahasiswa 1:"; mhs1.cetak();
+    cout << "Mahasiswa 2:"; mhs2.cetak();
+    cout << "Mahasiswa 3:"; mhs3.cetak();
 
+    return 0;
 }
