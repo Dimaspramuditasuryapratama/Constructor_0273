@@ -16,3 +16,6 @@ class mahasiswa{
 mahasiswa :: mahasiswa(){
 }
 
+mahasiswa :: mahasiswa(int iNim){
+    nim = iNim;
+}
